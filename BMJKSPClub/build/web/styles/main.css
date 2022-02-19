@@ -1,0 +1,123 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 19, 2022, 12:09:14 AM
+    Author     : gooro
+*/
+
+body{
+    font-family: sans-serif;
+}
+
+/*Banner*/
+header{
+    display:flex;
+    padding: 0.8rem
+}
+
+#logo{
+    margin-left: 1rem;
+}
+
+img{
+    width: 100px;
+    padding : 1rem;
+}
+
+#title{
+    align-self: center;
+    margin-left: 1rem
+}
+
+#title h1{
+    color: orange;
+    font-weight: bolder;
+}
+
+#title h2{
+    color:green;
+    font-style: italic;
+}
+
+nav{
+    border-bottom: 3px solid orange;
+    border-top: 3px solid orange;
+    margin: 0 2rem;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    margin: 0.5rem 1rem;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    border-left: 3px solid black;
+    padding-left: 3rem;
+    margin-left:3rem;
+}
+
+nav ul li a{
+    color: green;
+    font-weight: bolder
+}
+
+/*Section*/
+section{
+    margin: 0 2rem;
+    padding:  1rem;
+}
+
+/*Index*/
+#index p{
+    margin: 2rem 0;
+    
+}
+
+/*Register*/
+#register .form-control{
+    margin: 0.5rem 0;
+    font-weight: bolder;
+}
+.form-control label{
+    width: 200px;
+    display: inline-block;
+    height: 30px;
+}
+.form-control input,
+.form-control select{
+    height: 30px;
+    font-size: 1rem;
+}
+
+/*displaymember*/
+#displaymember{
+    width: 620px;
+}
+
+#displaymember p span{
+    font-weight: bolder;
+    width: 150px;
+    display: inline-block;
+}
+
+#displaymember p{
+    font-size: 1.2rem;
+}
+
+#displaymember h1{
+    font-size: 2rem;
+}
+
+/*Footer*/
+footer{
+    border-top: 3px solid orange;
+    margin: 0 2rem;
+    text-align: right;
+    padding-right: 1rem
+}
